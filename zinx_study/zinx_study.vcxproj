@@ -75,7 +75,19 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="CmdCheck.cpp" />
+    <ClCompile Include="CmdMsg.cpp" />
+    <ClCompile Include="EchoRole.cpp" />
     <ClCompile Include="mian.cpp" />
+    <ClCompile Include="StdInOutChannel.cpp" />
+    <ClCompile Include="ZinxTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CmdCheck.h" />
+    <ClInclude Include="CmdMsg.h" />
+    <ClInclude Include="EchoRole.h" />
+    <ClInclude Include="StdInOutChannel.h" />
+    <ClInclude Include="ZinxTimer.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>

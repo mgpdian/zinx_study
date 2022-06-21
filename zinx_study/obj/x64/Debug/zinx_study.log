@@ -4,6 +4,9 @@
   正在验证体系结构
   正在启动远程生成
   正在编译源:
-  mian.cpp
+  ZinxTimer.cpp
+G:\vcs\Game_Server_Study\zinx_study\zinx_study\ZinxTimer.cpp(117,19): warning : operation on ‘((TimerOutMng*)this)->TimerOutMng::cur_index’ may be undefined [-Wsequence-point]
+G:\vcs\Game_Server_Study\zinx_study\zinx_study\ZinxTimer.cpp(117,19): warning :   117 |         cur_index = (++cur_index) % WHELLSIZE;
+G:\vcs\Game_Server_Study\zinx_study\zinx_study\ZinxTimer.cpp(117,19): warning :       |         ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
   正在链接对象
   zinx_study.vcxproj -> G:\vcs\Game_Server_Study\zinx_study\zinx_study\bin\x64\Debug\zinx_study.out
